@@ -1,0 +1,31 @@
+#top-container{
+	height:485px;
+	background-image:url(../images/bg-top-container.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#347ba7; /* change this color */
+	-webkit-box-shadow:  0px 5px 8px  0px #aeaeae;
+	-moz-box-shadow: 0px 5px 8px 0px #aeaeae;
+	box-shadow: 0px 5px 8px 0px #aeaeae; 
+}
+#top-container-inner{
+	height:239px;
+	background-image:url(../images/bg-top-container.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#347ba7; /* change this color */
+	-webkit-box-shadow:  0px 5px 8px  0px #aeaeae;
+	-moz-box-shadow: 0px 5px 8px 0px #aeaeae;
+	box-shadow: 0px 5px 8px 0px #aeaeae; 
+}
+#glow-bg{
+	height:485px;
+	background-image:url(../images/moving-bg/bg-moving1.png); /* change this image */
+	background-repeat:repeat-x;
+}
+#glow-bg-inner{
+	height:239px;
+	background-image:url(../images/moving-bg/bg-moving1.png); /* change this image */
+	background-position:top;
+	background-repeat:repeat-x;
+}

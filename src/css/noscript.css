@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*----------------------------------------------------
+                Procyon no js  - CSS File
+------------------------------------------------------*/
+
+#slideshow ul{
+	display:none;
+}
+#slideshow, #s3slide{
+	width:960px;
+	height:377px;
+	margin:0px;
+	float:left;
+	background-image:url(../images/accordion1.jpg);
+}
+.front-testimonials ul li{
+	height:70px;
+}
+.front-testimonials ul li.fr-testi-nojs{
+	display:none;	
+}
+.round-pic-nojs ul li{
+	margin:0px 0px -20px -20px;
+	padding:5px 5px 1px 5px;
+	border:1px solid #d5d5d5;	
+}
+.round-pic-nojs p{
+	margin-left:-20px;
+}
+.roundabout-nojs{
+	display:none;
+}

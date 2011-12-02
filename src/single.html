@@ -1,0 +1,355 @@
+<!DOCTYPE html SYSTEM "http://www.indonez.com/xhtml1-iframe.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Procyon - Corporate Business Template 6</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" />
+<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" />
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript">	
+	//Login Colorbox
+	$(document).ready(function(){				
+		$(".login").colorbox({width:"400px"});				
+	});
+
+    // Background Slide Setting    
+	var scrollSpeed = 50; // speed in milliseconds	
+	var current = 0; // set the default position	
+	var direction = 'h'; // set the direction
+	function bgscroll(){
+	    current -= 1;  
+	    $('div#glow-bg-inner').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");   
+	}
+	 setInterval("bgscroll()", scrollSpeed);	
+</script>
+</head>
+
+<body>	
+	<div id="container">    	
+        <div id="top-container-inner">
+        	
+            <div id="glow-bg-inner">
+            
+            	<!-- BEGIN OF MAINMENU -->
+                <div id="menu-wrapper">
+                    <div id="menu-container">
+                        <div id="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                        <div id="mainmenu">
+                            <ul id="menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-sidebar-r.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li class="current"><a href="blog-sidebar-r.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul> 
+                                    	<li><a href="index-2.html">Home S3Slider</a></li>                           
+                                        <li><a href="blog-sidebar-r.html">Right sidebar page</a></li>
+                                        <li><a href="blog-sidebar-l.html">Left sidebar page</a></li>
+                                        <li><a href="column.html">Column page</a></li>
+                                        <li><a href="tables.html">Tables page</a></li>
+                                        <li><a href="button-list.html">Button &amp; List page</a></li>
+                                        <li><a href="typography.html">Typography page</a></li>
+                                        <li><a href="testimonials.html">Testimonials page</a></li>
+                                        <li><a href="pricing.html">Pricing plan</a></li>
+                                        <li><a href="faq.html">FAQ page</a></li>
+                                        <li><a href="single.html">Single page</a></li>                            
+                                        <li><a href="fullwidth.html">Fullwidth page</a></li>
+                                        <li><a href="404.html">404 page</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="login-wrapper"><a class="login" href="login.html"><span>Login</span></a></div>
+                    </div>
+                </div>
+                <!-- END OF MAINMENU -->
+                
+                <!-- BEGIN OF HEADER -->
+                <div id="header-container-inner">
+                	<div id="phone-number"><h3>777.888.5555</h3></div>
+                    <div id="pagetitle-wrapper">
+                    	<h1>Our Blog.</h1>
+                        <div id="breadcumb">
+                        	home &nbsp; &raquo; &nbsp; blog
+                        </div>	
+                    </div>
+                    <div id="slideshow-shadow"></div>
+                </div>
+                <!-- END OF HEADER -->
+                
+                <!-- BEGIN OF CONTENT -->
+                <div id="content">
+                	<div class="maincontent-inner">          	
+                        
+                        <div id="content-left">
+                            <div class="blog-post"><!-- blog post 1 --> 
+                            	<div class="post-title">
+                                	<h3><a href="single.html">Let Sleeping Dogs Lie</a></h3>
+                                </div>
+                                <div class="post-info">
+                                	<div class="blog-info-box"><a href="single.html">14<br/>Sept</a></div>
+                                    <div class="blog-info-box"><a href="single.html">5<br/>Com</a></div>
+                                </div>                               
+                                <div class="post-content">
+                                	<img src="images/blog-img1.jpg" alt="" class="imgcenter" />                                    
+                                    <p>After a busy day spent trying to catch their own tail, the cat next door or the postman, sometimes there's nothing else a puppy wants to catch but 40 winks. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid.</p>
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt labore dolore magnam.</p>
+                                    <blockquote>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                                    </blockquote>
+                                	<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                                </div> 
+                                
+                                <!--Begin sharing box-->
+                                <div class="sharing-box">
+                                    <div class="share-facebook">
+                                        <iframe frameborder="0" scrolling="no" style="border: medium none; overflow: hidden; width: 300px; height: 45px;" src="http://www.facebook.com/plugins/like.php?href=http://www.indonez.com/&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light"></iframe>
+                                    </div>
+                                        
+                                    <div class="share-social">
+                                        <ul>
+                                            <li><a title="Click to Tweet This!" href="http://twitter.com/home?status=Currently reading http://www.yoursite.com/your_page.html" class="twitter">Tweet This</a></li>
+                                            <li><a title="Share on Facebook" href="http://www.facebook.com/share.php?u=http://www.yoursite.com/your_page.html" class="facebook">Share on Facebook</a></li>
+                                            <li><a title="Digg This" href="http://digg.com/submit?phase=2&amp;url=http://www.yoursite.com/your_page.html&amp;title=Readability Test" class="digg">Digg This</a></li>
+                                            <li><a title="Stumble This" href="http://www.stumbleupon.com/submit?url=http://www.yoursite.com/your_page.html&amp;title=Readability Test" class="stumbleupon">Stumble This</a></li>
+                                            <li><a title="Bookmark on Delicious" href="http://del.icio.us/post?url=http://www.yoursite.com/your_page.html&amp;title=Readability Test" class="delicious">Bookmark on Delicious</a></li>
+                                            <li><a title="Bookmark on Reddit!" href="http://reddit.com/submit?url=http://www.yoursite.com/your_page.html&amp;title=Readability Test" class="reddit">Bookmark on Reddit!</a></li>
+                                            <li><a title="Float This!" href="http://designfloat.com/submit.php?url=http://www.yoursite.com/your_page.html&amp;title=Readability Test" class="designfloat">Float This</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--End sharing box-->
+                                
+                                <!-- Begin of Related Post -->
+                                <div id="recentPostList">
+                                    <div id="related-post-title"><h5>Related Posts</h5></div>                                           
+                                    <div class="related-item-wrapper"><!-- related item -->                         	                            	
+                                        <a href="blog.html"><img src="images/blog-pic1.jpg" alt="" class="img-related" /></a>
+                                        <p><a href="blog.html">Nemo enim ipsam voluptate quia voluptas tempora</a></p>
+                                    </div>
+                                        
+                                    <div class="related-item-wrapper"><!-- related item -->                         	                            	
+                                        <a href="blog.html"><img src="images/blog-pic2.jpg" alt="" class="img-related" /></a>
+                                        <p><a href="blog.html">Accusamus tolo dignissimos ducimus blanditiis explora</a></p>
+                                    </div>
+                                       
+                                    <div class="related-item-wrapper"><!-- related item -->                         	                            	
+                                        <a href="blog.html"><img src="images/blog-pic3.jpg" alt="" class="img-related" /></a>
+                                        <p><a href="blog.html">Sed ut perspiciatis unde omnis voluptatemi natus</a></p>
+                                    </div>
+                                        
+                                    <div class="related-item-wrapper-last"><!-- related item -->                         	                            	
+                                        <a href="blog.html"><img src="images/blog-pic4.jpg" alt="" class="img-related" /></a>
+                                        <p><a href="blog.html">Excepteur sint occaecat cupidatat non proident</a></p>
+                                    </div>                                                                                                             
+                                </div>
+                                <!-- End of Related Post -->
+                                
+                                <!-- Begin of Comment -->
+                                <div id="comment">
+                                    <h4>2 responses to "Let Sleeping Dogs Lie"</h4>
+                                    <ol class="commentlist">
+                                        <li>
+                                            <div class="avatar"><img src="images/author.jpg" alt=""  class="imgleft" /></div>
+                                            <div class="comment-text" ><h5>John Doe</h5>
+                                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequ  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur sunt in culpa qui officia deserunt mollit anim id est laborum adipisci velit.</p>
+                                            <small>April 28, 2010 01:23 am <a class="reply" href="#">Reply</a></small>
+                                            </div>
+                                            <ol>
+                                                <li>
+                                                    <div class="avatar"><img src="images/author.jpg" alt=""  class="imgleft" /></div>
+                                                    <div class="comment-text" ><h5>Matt Somat</h5>
+                                                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequ  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur sunt in culpa qui officia deserunt mollit anim id est laborum adipisci velit.</p>
+                                                    <small>April 28, 2010 01:23 am <a class="reply" href="#">Reply</a></small>
+                                                    </div>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <!-- End of Comment -->
+                                
+                                <!-- Begin of Comment Form -->
+                                <div id="commentform-wrap">	
+                                    <h4>Leave a comment</h4>                       
+                                    <form action="#" method="post" id="comment-form">                                    
+                                    <div>
+                                        <input name="name" type="text" class="requiredField" />
+                                        <label>Name<em>*</em></label>
+                                    </div>                                                            
+                                    <div>	
+                                        <input name="email" type="text" class="requiredField email" />
+                                        <label>Email<em>*</em></label>		
+                                    </div>                                                            
+                                    <div>
+                                        <input name="url" type="text" class="last" />
+                                        <label>Url</label>	
+                                    </div>                                        
+                                    <div>
+                                         <textarea name="comment" rows="50" cols="20"></textarea>		
+                                    </div>                                                            
+                                    <div>
+                                         <button type="submit" name="submit" id="buttonsend" class="buttoncontact">Submit</button>                            
+                                    </div>
+                                    </form>                                
+                                </div>
+                                <!-- End of Comment Form -->
+                                                               
+                            </div>                                                 
+                        </div>
+                        
+                        <!-- BEGIN OF SIDEBAR -->
+                        <div id="sidebar-right">
+                        	<div id="sidebar-right-top">
+                            	<div id="sidebar-right-bottom">
+                                	
+                                    <div class="sidebar-content-right">
+                                    <h5>Search something?</h5>
+                                    <form id="search-right" action="#" method="get">
+                                        <fieldset class="search-fieldset">
+                                        <input type="text" id="search-form" value="Type here..." onblur="if (this.value == ''){this.value = 'Type here...'; }" onfocus="if (this.value == 'Type here...') {this.value = ''; }" />
+                                        <input type="submit" class="sub-button" value="Search" />                            
+                                        </fieldset>      						
+                                    </form>
+                                    </div>
+                                    
+                                    <div class="sidebar-content-right">
+                                    <h5>Blog categories</h5>
+                                        <ul class="sidebar-list">
+                                            <li><a href="#">Web design and Programing</a></li>                    
+                                            <li><a href="#">Photoshop and Ilustrator</a></li>                                
+                                            <li><a href="#">SEO and Internet Marketing</a></li>
+                                            <li><a href="#">jQuery, AJAX, and PHP</a></li>
+                                            <li><a href="#">Lifestyle and Technology</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="sidebar-content-right">
+                                        <h5>Popular post</h5>
+                                        <ul class="popular-list-right">
+                                            <li>
+                                                <img src="images/blog-img3.jpg" alt="" class="imgborder" />                                                
+                                                <p class="popular-title"><a href="#">Europe's Largest Mega Mall</a></p>
+                                                <p>8 Comments</p>                        
+                                            </li>
+                                            <li>
+                                                <img src="images/blog-img1.jpg" alt="" class="imgborder" />                                                
+                                                <p class="popular-title"><a href="#">Let Sleeping Dogs Lie</a></p>
+                                                <p>5 Comments</p>                              
+                                            </li>
+                                            <li>
+                                                <img src="images/blog-img2.jpg" alt="" class="imgborder" />                                                
+                                                <p class="popular-title"><a href="#">Indonesian Shares Down 0.5Pct</a></p>
+                                                <p>3 Comments</p>                                
+                                            </li>                     
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="sidebar-content-right">
+                                        <h5>Tag Cloud</h5>
+                                        <div class="tag-cloud-right">
+                                            <a title="Link title" href="#">indonesia</a>
+                                            <a title="Link title" href="#">economy</a>
+                                            <a title="Link title" href="#">shopping</a>
+                                            <a title="Link title" href="#">animal</a>
+                                            <a title="Link title" href="#">newsmaker</a>
+                                            <a title="Link title" href="#">celebrity</a>
+                                            <a title="Link title" href="#">national</a>
+                                            <a title="Link title" href="#">travel</a>
+                                            <a title="Link title" href="#">finance</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="sidebar-content-right">
+                                        <ul class="sponsor-list-right">
+                                            <li><a href="#"><img src="images/banner1.png" alt="" /></a></li>        
+                                        </ul>    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF SIDEBAR -->
+                        
+                </div>
+                <!-- END OF CONTENT -->                              
+                        
+                <div id="bottom-wrapper">        
+                    <div id="bottom-content">
+                        <div class="logofooter-column">
+                            <img src="images/logo.png" alt="" />
+                        </div>
+                        <div class="contactbottom-column">
+                            <h6>Contact Us</h6>
+                            <p>Tel: +44 0208 1234 355 <br/>
+                            Fax: +44 0208 1234 344 <br/>
+                            Email: hello@procyon-media.com <br/>
+                            Skype: weareprocyon                                 
+                            </p>
+                        </div>
+                        <div class="socialbottom-column">
+                            <h6>Follow Us</h6>
+                            <ul class="social-list">
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social6.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social5.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social2.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social12.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social4.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social20.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social11.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social26.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social7.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social18.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                        <div class="linkbottom-column">
+                            <h6>Media Center</h6>
+                            <ul class="list-bottom">
+                                <li><a href="#">Media Release</a></li>
+                                <li><a href="#">In The Media</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="mailingbottom-column">
+                            <h6>Mailing List</h6>
+                            <p>Sign up if you would like to receive occasional treats from us.</p>
+                            <form id="newsletter" action="#" method="get">
+                                <fieldset class="search-fieldset">
+                                <input type="text" id="nlt-form" value="Your email address..." onblur="if (this.value == ''){this.value = 'Your email address...'; }" onfocus="if (this.value == 'Your email address...') {this.value = ''; }" />
+                                <input type="submit" class="sub-button" value="Go" />                            
+                                </fieldset>      						
+                                </form>
+                        </div>         	
+                    </div>
+                </div>            
+                
+                <div id="copyright-text">
+                  	Copyright &copy; 2011 Procyon Corp. All rights reserved &nbsp; | &nbsp; <a href="#top" class="scroll">back to top</a>&nbsp;<a href="#top" class="scroll backtop"><img src="images/back-top.png" alt="" /></a>
+                </div>
+                    
+                </div>
+                
+                
+            </div>   
+                        
+        </div>                   	       
+    </div>      
+<script type="text/javascript">$('#noscript').remove();</script>     
+</body>
+</html>

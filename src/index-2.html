@@ -1,0 +1,308 @@
+<!DOCTYPE html SYSTEM "http://www.indonez.com/xhtml1-iframe.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Procyon - Corporate Business Template 6</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/custom-style.css" rel="stylesheet" type="text/css" />
+<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" />
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/jquery.twitter.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/s3Slider.js"></script>
+<script type="text/javascript">
+   $(document).ready(function() {
+	   			   
+	   		//Twitter Jquery Setting
+			$("#twitter").getTwitter({
+				userName: "Indoneztheme",
+				numTweets: 1,
+				loaderText: "Loading tweets...",
+				slideIn: true,
+				slideDuration: 750
+		}); 
+			//Front Testimonials Setting    
+        	$('.front-testimonials ul').cycle({
+				timeout: 5000, 
+				fx:      'fade', 
+				pager:   '#pager', 
+				pause:   true,	
+				cleartypeNoBg: true, 
+				pauseOnPagerHover: 0
+        });
+     });
+	 
+			//S3Slider Setting   
+			$(document).ready(function() {
+				$('#s3slide').s3Slider({
+					timeOut: 6000 
+				});
+			});
+
+	//Login Colorbox
+	$(document).ready(function(){				
+		$(".login").colorbox({width:"400px"});				
+	});
+
+    // Background Slide Setting    
+	var scrollSpeed = 50; // speed in milliseconds	
+	var current = 0; // set the default position	
+	var direction = 'h'; // set the direction
+	function bgscroll(){
+	    current -= 1;  
+	    $('div#glow-bg').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");   
+	}
+	 setInterval("bgscroll()", scrollSpeed);	
+</script>
+</head>
+
+<body>	
+	<div id="container">    	
+        <div id="top-container">
+        	
+            <div id="glow-bg">
+            
+            	<!-- BEGIN OF MAINMENU -->
+                <div id="menu-wrapper">
+                    <div id="menu-container">
+                        <div id="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                        <div id="mainmenu">
+                            <ul id="menu">
+                                <li class="current"><a href="index.html">Home</a></li>
+                                <li><a href="about-sidebar-r.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="blog-sidebar-r.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul> 
+                                    	<li><a href="index-2.html">Home S3Slider</a></li>                           
+                                        <li><a href="blog-sidebar-r.html">Right sidebar page</a></li>
+                                        <li><a href="blog-sidebar-l">Left sidebar page</a></li>
+                                        <li><a href="column.html">Column page</a></li>
+                                        <li><a href="tables.html">Tables page</a></li>
+                                        <li><a href="button-list.html">Button &amp; List page</a></li>
+                                        <li><a href="typography.html">Typography page</a></li>
+                                        <li><a href="testimonials.html">Testimonials page</a></li>
+                                        <li><a href="pricing.html">Pricing plan</a></li>
+                                        <li><a href="faq.html">FAQ page</a></li>
+                                        <li><a href="single.html">Single page</a></li>                            
+                                        <li><a href="fullwidth.html">Fullwidth page</a></li>
+                                        <li><a href="404.html">404 page</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="login-wrapper"><a class="login" href="login.html"><span>Login</span></a></div>
+                    </div>
+                </div>
+                <!-- END OF MAINMENU -->
+                
+                <!-- BEGIN OF HEADER -->
+                <div id="header-container">
+                	<div id="phone-number"><h3>777.888.5555</h3></div>                    
+                    <div id="slideshow-wrapper">
+                    	<div id="s3slide">
+                            
+                            <ul id="s3slideContent">
+                            	<li class="s3slideImage">
+                                    <img style="background: url('images/accordion2.jpg') no-repeat 0 0" src="images/space.gif" width="960" height="377" alt="" />
+                                    <div class="right">
+                                    	<span class="s3text">
+                                        <strong>Choose Procyon for your next Web Project!</strong>
+                                    	Namleo ligula consequat sedcursus eleifend amet neque pellentesque sedan vehicula vitae tincidunt sit amet est quisque gravida nibh ac nisl tincidunt lobortis arum rerum hic tenetur
+                                        </span>
+                                        <a href="#" class="button medium white"><span>Click for Detail</span></a> 
+                                    </div>
+                                </li>                            
+                                <li class="s3slideImage">
+                                	<img style="background: url('images/accordion1.jpg') no-repeat 0 0" src="images/space.gif" width="960" height="377" alt="" />
+                                    <div class="bottom">
+                                    	<span class="s3text">
+                                    	Nam leo ligula consequat sed cursus nec eleifend sit amet neque pellentesque sed vehicula vitae tincidunt sit amet est quisque gravida nibh ac nisl tincidunt lobortis arum rerum hic tenetur
+                                        </span>
+                                        <a href="#" class="button medium white"><span>Click for Detail</span></a> 
+                                    </div>
+                                </li>                                
+                                <li class="s3slideImage">
+                                    <img style="background: url('images/accordion3.jpg') no-repeat 0 0" src="images/space.gif" width="960" height="377" alt="" />
+                                    <div class="left">
+                                    	<span class="s3text">
+                                        <strong>Choose Procyon for your next Web Project!</strong>
+                                    	Namleo ligula consequat sedcursus eleifend amet neque pellentesque sedan vehicula vitae tincidunt sit amet est quisque gravida nibh ac nisl tincidunt lobortis arum rerum hic tenetur
+                                        </span>
+                                        <a href="#" class="button medium white"><span>Click for Detail</span></a> 
+                                    </div>
+                                </li>
+                                <li class="s3slideImage">
+                                	<img style="background: url('images/accordion4.jpg') no-repeat 0 0" src="images/space.gif" width="960" height="377" alt="" />
+                                    <div class="top">
+                                    	<span class="s3text">
+                                    	Nam leo ligula consequat sed cursus nec eleifend sit amet neque pellentesque sed vehicula vitae tincidunt sit amet est quisque gravida nibh ac nisl tincidunt lobortis arum rerum hic tenetur
+                                        </span>
+                                        <a href="#" class="button medium white"><span>Click for Detail</span></a> 
+                                    </div>
+                                </li>
+                                <div class="clear s3slideImage"></div>                       
+        					</ul>                            
+                            
+                        </div>
+                    </div>
+                    <div id="slideshow-shadow"></div>
+                </div>
+                <!-- END OF HEADER -->
+                
+                <!-- BEGIN OF CONTENT -->
+                <div id="content">
+                	<div class="maincontent">
+                    
+                    	<div id="top-content">
+                        	<div id="twitter-bird"><img src="images/tweet.png" alt="" /></div>
+                       		<div id="twitter"></div>
+                            <div id="fb-like"><iframe frameborder="0" scrolling="no" style="border: medium none; overflow: hidden; width: 81px; height: 20px;" src="http://www.facebook.com/plugins/like.php?href=http://www.indonez.com/&amp;layout=button_count&amp;show_faces=false&amp;width=66&amp;action=like&amp;colorscheme=light"></iframe></div> 	
+                        </div>
+                        
+                        <div id="founder-prolog">
+                        	<div class="founder-img">
+                            	<img src="images/founder.jpg" alt="" class="imgleft" />
+                            </div>
+                            <div class="prolog-text">
+                            	<h3>Hi..!! I'm John CEO of Procyon, welcome to factory of idea</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                            </div>                            
+                        </div>
+                        
+                        <div class="clear"></div>
+                        <div class="divider-fullwidth"></div>                        
+                        
+                        <div class="front-left">
+                            <div class="col-3 front-content">
+                                <div class="front-icon"><img src="images/front-icon1.jpg" alt="" /></div>
+                                <h4>Good Interface Design</h4>
+                                <p>Sed aliquam, ipsum at luctus pellentesquep urus orci luctus dui, eur imperdiet elit ipsum sed nisl nunc commodo pulvinar dignissim</p>
+                            </div>
+                            <div class="col-3 front-content">
+                                <div class="front-icon"><img src="images/front-icon2.jpg" alt="" /></div>
+                                <h4>Fast and precise</h4>
+                                <p>Sed aliquam, ipsum at luctus pellentesquep urus orci luctus dui, eur imperdiet elit ipsum sed nisl nunc commodo pulvinar dignissim</p>
+                            </div>
+                            <div class="col-3 front-content">
+                                <div class="front-icon"><img src="images/front-icon3.jpg" alt="" /></div>
+                                <h4>Easy Controling</h4>
+                                <p>Sed aliquam, ipsum at luctus pellentesquep urus orci luctus dui, eur imperdiet elit ipsum sed nisl nunc commodo pulvinar dignissim</p>
+                            </div>
+                            <div class="col-3 front-content">
+                                <div class="front-icon"><img src="images/front-icon4.jpg" alt="" /></div>
+                                <h4>Chart Marketing</h4>
+                                <p>Sed aliquam, ipsum at luctus pellentesquep urus orci luctus dui, eur imperdiet elit ipsum sed nisl nunc commodo pulvinar dignissim</p>
+                            </div>
+                        </div>
+                        
+                        <div class="front-right">
+                            <div class="col-3 front-content">
+                                <h4>Powerful Theme Options</h4>
+                                <img src="images/front-img.jpg" alt="" class="imgborder imgcenter" />
+                                <p>Sed aliquam, ipsum at luctus pellentesquep urus orci luctus dui, eur imperdiet elit ipsum sed nisl nunc commodo pulvinar dignissim</p>
+                            </div>
+                        </div>
+                        
+                        <div class="clear"></div>
+                        <div class="divider-fullwidth"></div> 
+                        
+                        <div class="front-testimonials">
+                        	<ul>
+                            	<li>
+                            		<div class="testi-text">&ldquo;Everytime you see a video online, you probably have Procyon Media to thank.&rdquo;</div>
+                                    <div class="testi-logo"><img src="images/client-logo1.gif" alt="" /></div>
+                                    <div class="testi-client">Disney Movie Inc.</div>
+                                </li>
+                                <li class="fr-testi-nojs">
+                            		<div class="testi-text">&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.&rdquo;</div>
+                                    <div class="testi-logo"><img src="images/client-logo2.gif" alt="" /></div>
+                                    <div class="testi-client">Pepsi Company.</div>
+                                </li>
+                                <li class="fr-testi-nojs">
+                            		<div class="testi-text">&ldquo;Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.&rdquo;</div>
+                                    <div class="testi-logo"><img src="images/client-logo3.gif" alt="" /></div>
+                                    <div class="testi-client">AMD Technology.</div>
+                                </li>
+                            </ul>
+                        </div>
+                
+                	</div>
+                </div>
+                <!-- END OF CONTENT -->
+                
+                <div id="bottom-wrapper">        
+                    <div id="bottom-content">
+                        <div class="logofooter-column">
+                            <img src="images/logo.png" alt="" />
+                        </div>
+                        <div class="contactbottom-column">
+                            <h6>Contact Us</h6>
+                            <p>Tel: +44 0208 1234 355 <br/>
+                            Fax: +44 0208 1234 344 <br/>
+                            Email: hello@procyon-media.com <br/>
+                            Skype: weareprocyon                                 
+                            </p>
+                        </div>
+                        <div class="socialbottom-column">
+                            <h6>Follow Us</h6>
+                            <ul class="social-list">
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social6.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social5.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social2.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social12.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social4.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social20.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social11.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social26.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social7.png" alt="" /></a></li>
+                                <li><a href="#"><img src="images/social-icons/follow-footer/social18.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                        <div class="linkbottom-column">
+                            <h6>Media Center</h6>
+                            <ul class="list-bottom">
+                                <li><a href="#">Media Release</a></li>
+                                <li><a href="#">In The Media</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="mailingbottom-column">
+                            <h6>Mailing List</h6>
+                            <p>Sign up if you would like to receive occasional treats from us.</p>
+                            <form id="newsletter" action="#" method="get">
+                                <fieldset class="search-fieldset">
+                                <input type="text" id="nlt-form" value="Your email address..." onblur="if (this.value == ''){this.value = 'Your email address...'; }" onfocus="if (this.value == 'Your email address...') {this.value = ''; }" />
+                                <input type="submit" class="sub-button" value="Go" />                            
+                                </fieldset>      						
+                                </form>
+                        </div>         	
+                    </div>
+                </div>            
+                
+                <div id="copyright-text">
+                  	Copyright &copy; 2011 Procyon Corp. All rights reserved &nbsp; | &nbsp; <a href="#top" class="scroll">back to top</a>&nbsp;<a href="#top" class="scroll backtop"><img src="images/back-top.png" alt="" /></a>
+                </div>     
+                
+            </div>   
+                        
+        </div>                   	       
+    </div>      
+<script type="text/javascript">$('#noscript').remove();</script>     
+</body>
+</html>
